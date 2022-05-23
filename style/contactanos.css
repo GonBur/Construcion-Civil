@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*cabecera*/
+.banner{
+    margin: 2% 3%;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+
+.titulo h1{
+    position: absolute;
+    font-size: 7vw;
+    text-align: center;
+    top: 6vw;
+    left: 5%;
+    right: 40%;
+    color: #F44A13;
+    text-shadow: 3px 3px 3px black;
+}
+
+.logo{
+    position: absolute;
+    top: 13.5vw;
+    left: 43.5%;
+}
+.logo img{
+    width: 10vw;
+}
+
+/*navegacion*/
+.navegacion{
+    text-align: center;
+    margin-top: 5%;
+}
+.navegacion a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 2vw;
+    padding: 1vw;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.navegacion a:hover{
+    background-color: #FFAD3B;
+    color: black;
+}
+
+/*contenido*/
+.datos_empresa{
+    float: left;
+    width: 42%;
+    margin: 5% 2%;
+    text-align: center;
+}
+.datos_empresa h2{
+    font-size: 3vw;
+    margin: 5% 5% 10%;
+    color: #F44A13;
+}
+.datos_empresa h3{
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+.datos_empresa p{
+    font-size: 2.5vw;
+    margin-bottom: 5%;
+}
+.datos_empresa img{
+    margin-top: 15%;
+    width: 96%;
+}
+
+.formulario{
+    float: right;
+    width: 50%;
+    margin: 5% 2%;
+    text-align: center;
+}
+.formulario h2{
+    font-size: 3vw;
+    margin: 5%;
+    color: #F44A13;
+}
+.formulario label{
+    font-size: 3vw;
+}
+.formulario input{
+    margin-bottom: 5%;
+    padding: 1.5vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+    width: 70%;
+}
+#mensaje{
+    padding: 10% 4%;
+}
+.enviar{
+   background-color: #5271FF;
+   color: white;
+}
+.enviar:hover{
+    background-color: #FFAD3B;
+    color: blue;
+}
+
+/*pie de pagina _ footer*/
+.pie_pagina{
+    background-color: #FFAD3B;
+    overflow: hidden;
+    margin: 40% 3% 3%;
+    width: 94%;
+}
+.footer_informacion{
+    width: 60%;
+    float: left;
+}
+.footer_informacion p{
+    margin: 5%;
+    font-size: 3vw;
+    text-align: justify;
+}
+
+.footer_redes{
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+.footer_redes h3{
+    font-size: 3.5vw;
+    margin-top: 10%;
+}
+.footer_redes img{
+    width: 7vw;
+    margin: 2%;
+}
+.imagen_twitter img{
+    width: 6vw;
+}

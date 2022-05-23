@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*cabecera*/
+.banner{
+    margin: 2% 3%;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+
+.titulo h1{
+    position: absolute;
+    font-size: 7vw;
+    text-align: center;
+    top: 6vw;
+    left: 5%;
+    right: 40%;
+    color: #F44A13;
+    text-shadow: 3px 3px 3px black;
+}
+
+.logo{
+    position: absolute;
+    top: 13.5vw;
+    left: 43.5%;
+}
+.logo img{
+    width: 10vw;
+}
+
+/*navegacion*/
+.navegacion{
+    text-align: center;
+    margin-top: 5%;
+}
+.navegacion a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 2vw;
+    padding: 1vw;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.navegacion a:hover{
+    background-color: #FFAD3B;
+    color: black;
+}
+
+/*contenido*/
+.video_contenido{
+    float: left;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.video_contenido video{
+    width: 100%;
+}
+
+
+.informacion_contenido{
+    float: right;
+    width: 53%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.informacion_contenido p{
+    font-size: 3.5vw;
+}
+
+/*boton mas informacion*/
+.cursos_virtuales{
+margin: 45% 7% 0% 50%;
+background-color: #5372fc;
+border-radius: 2vw;
+padding: 1%;
+text-align: center;
+}
+.cursos_virtuales a{
+    font-size: 3vw;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 2px 5px black;
+}
+.cursos_virtuales:hover{
+    background-color: #FFAD3B;
+}
+.cursos_virtuales a:hover{
+    color: black;
+    text-shadow: 2px 3px 9px white;
+}
+
+/*pie de pagina _ footer*/
+.pie_pagina{
+    background-color: #FFAD3B;
+    overflow: hidden;
+    margin: 7% 3% 3%;
+    width: 94%;
+}
+.footer_informacion{
+    width: 60%;
+    float: left;
+}
+.footer_informacion p{
+    margin: 5%;
+    font-size: 3vw;
+    text-align: justify;
+}
+
+.footer_redes{
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+.footer_redes h3{
+    font-size: 3.5vw;
+    margin-top: 10%;
+}
+.footer_redes img{
+    width: 7vw;
+    margin: 2%;
+}
+.imagen_twitter img{
+    width: 6vw;
+}
